@@ -10,6 +10,7 @@
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
     "test": "npm-run-all test:*",
     "test:html": "html-validate *.html",
+    "test:js": "eslint.js/",
     "build": "npm-run-all build:* test",
     "build:sass": "sass --style=expanded --source-map sass:css",
     "build:autoprefixer": "postcss css/*.css --use autoprefixer -d css",
@@ -26,7 +27,7 @@
   "devDependencies": {
     "autoprefixer": "^10.2.4",
     "browser-sync": "^3.0.4",
-    "eslint": "^9.33.0",
+    "eslint": "^8.56.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-prettier": "^5.5.4",
