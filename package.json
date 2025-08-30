@@ -10,6 +10,7 @@
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
     "test": "npm-run-all test:*",
     "test:html": "html-validate *.html",
+    "test:scss": "stylelint sass/**/*.scss",
     "test:js": "eslint js/**/*.js",
     "build": "npm-run-all build:* test",
     "build:sass": "sass --style=expanded --source-map sass:css",
@@ -29,7 +30,6 @@
     "browser-sync": "^3.0.4",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-prettier": "^5.5.4",
     "html-validate": "^9.7.1",
     "mkdirp": "^3.0.1",
@@ -39,7 +39,8 @@
     "postcss-cli": "^8.3.1",
     "prettier": "^3.6.2",
     "sass": "^1.90.0",
-    "stylelint": "^16.23.0",
-    "stylelint-config-standard": "^39.0.0"
+    "stylelint": "^16.23.1",
+    "stylelint-config-standard": "^39.0.0",
+    "stylelint-scss": "^6.12.1"
   }
 }
