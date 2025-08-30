@@ -1,6 +1,10 @@
-W zadaniu tym należało skupić się na autorach i tagach. Wszystkie poniższe funckje wykonane są w js:
+<h1>Wyświetlamy chmurę tagów</h1>
 
-* Lista postów wyświetla się po lewej stronie,
-* Każdy artykuł przepisany jest pod konkretnych autorów,
-* Lista autorów wyświetlana jest po prawej stronie (pobierana jest z artykułów)
-* Po kliknięciu na autora, wyświetlana jest lista artykułów przepisana pod wskazane id
+* Chmura tagów wyświela się w sidebarze
+* Zaimplementowana została fukcja, pobierająca informacje nt ilości wystąpień danego taga w artykułach
+* Edytowana została funkcja autorów. Teraz również wyświetlana jest liczba artykułów poszczególnych autorów
+* Chmura została ostylowana w sass.
+* Zmienione zostały nieco stałe w ustawieniach, a w zasadzie ich format.
+
+
+

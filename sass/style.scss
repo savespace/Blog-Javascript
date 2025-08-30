@@ -120,3 +120,12 @@ body {
   }
 }
 
+/* Tags */
+
+.tag-size-1 {font-size: 80%; color: #800000; text-decoration: none; }
+.tag-size-2 {font-size: 90%; color: #e60000; text-decoration: none; }
+.tag-size-3 {font-size: 100%; color: #ff3333; text-decoration: none; }
+.tag-size-4 {font-size:  110%; color: #ff6666; text-decoration: none; }
+.tag-size-5 {font-size: 120%; color: #1a0000; text-decoration: none; }
+
+.tags li { display: inline-block; margin: 0 5px 5px 0; }
